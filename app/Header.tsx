@@ -16,7 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 text-white border-b border-white/10">
+<header className="relative z-50 text-white border-b border-white/10 bg-[#0b1d3a]/90 backdrop-blur-md">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row items-center md:justify-between h-auto md:h-16 py-4 md:py-0 gap-4 md:gap-0">
         
         {/* ---------- LOGO + TITRE ---------- */}
