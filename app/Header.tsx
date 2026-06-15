@@ -17,29 +17,29 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50 text-white border-b border-white/10">
-      <div className="max-w-screen-xl mx-auto px-8 flex items-center justify-between h-16">
-
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col md:flex-row items-center md:justify-between h-auto md:h-16 py-4 md:py-0 gap-4 md:gap-0">
+        
         {/* ---------- LOGO + TITRE ---------- */}
-<Link href="/" className="flex items-center gap-4 group shrink-0">
-  <Image
-    src="/logo.png"
-    alt="NORSE‑ICM Logo"
-    width={52}
-    height={52}
-    className="rounded-full ring-2 ring-white/30 group-hover:ring-white/60 transition-all duration-300"
-  />
-  <div className="border-l border-white/20 pl-4">
-    <p className="text-base font-bold tracking-[0.15em] text-white uppercase leading-none mb-1">
-      NORSE‑ICM
-    </p>
-    <p className="text-xs text-white/50 tracking-[0.2em] uppercase leading-none">
-      Paris Brain Institute
-    </p>
-  </div>
-</Link>
+        <Link href="/" className="flex items-center gap-4 group shrink-0">
+          <Image
+            src="/logo.png"
+            alt="NORSE‑ICM Logo"
+            width={52}
+            height={52}
+            className="rounded-full ring-2 ring-white/30 group-hover:ring-white/60 transition-all duration-300"
+          />
+          <div className="border-l border-white/20 pl-4">
+            <p className="text-base font-bold tracking-[0.15em] text-white uppercase leading-none mb-1 text-center md:text-left">
+              NORSE‑ICM
+            </p>
+            <p className="text-xs text-white/50 tracking-[0.2em] uppercase leading-none text-center md:text-left">
+              Paris Brain Institute
+            </p>
+          </div>
+        </Link>
 
         {/* ---------- NAVIGATION ---------- */}
-        <nav className="flex items-center h-full">
+        <nav className="flex flex-col md:flex-row items-center gap-2 md:gap-0 w-full md:w-auto h-auto md:h-full justify-center md:justify-end">
           {pages.map((page) => {
             const isActive = pathname === page.href;
             return (
@@ -47,12 +47,9 @@ export default function Header() {
                 key={page.href}
                 href={page.href}
                 className={`
-                  relative flex items-center h-full px-5 text-base tracking-wide font-medium
+                  relative flex items-center justify-center md:justify-start px-4 md:px-5 py-1 text-sm md:text-base tracking-wide font-medium
                   transition-all duration-200
-                  ${isActive
-                    ? "text-white"
-                    : "text-white/60 hover:text-white"
-                  }
+                  ${isActive ? "text-white" : "text-white/60 hover:text-white"}
                 `}
               >
                 {page.name}
@@ -70,12 +67,11 @@ export default function Header() {
           {/* Bouton Contact CTA */}
           <a
             href="mailto:aurelie.hanin@icm-institute.org"
-            className="ml-4 px-4 py-2 border border-white/30 text-white text-sm font-semibold rounded-lg hover:bg-white/10 transition-all duration-200 shrink-0"
+            className="mt-2 md:mt-0 md:ml-4 px-4 py-2 border border-white/30 text-white text-xs md:text-sm font-semibold rounded-lg hover:bg-white/10 transition-all duration-200 shrink-0"
           >
             Contact us
           </a>
         </nav>
-
       </div>
     </header>
   );
