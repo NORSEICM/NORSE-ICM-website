@@ -315,8 +315,8 @@ export default function EuropeanBiobank() {
 
         <p className="text-slate-700 leading-relaxed mb-4">
           Rather than relying on single biomarkers, the platform models cytokines
-          as integrated biological networks to better support
-          <strong>precision medicine strategies</strong> and guide
+          as integrated biological networks to better support 
+          <strong>precision medicine strategies</strong> and guide 
           <strong>targeted immunotherapy selection</strong>.
         </p>
 
