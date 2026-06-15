@@ -170,9 +170,7 @@ label:
 label:
 "Turnaround time" },
 
-            ].map((stat,
-index) 
-=> (
+            ].map((stat, index) => (
 
               <motion.div
 
