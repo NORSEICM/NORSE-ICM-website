@@ -275,77 +275,214 @@ export default function EuropeanBiobank() {
 
 {/* ---------- NORSE PROFILES ---------- */}
 <motion.section
-  className="mb-12"
-  initial={{ opacity: 0, y: 24 }}
+  className="mb-16 relative"
+  initial={{ opacity: 0, y: 32 }}
   whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6 }}
+  transition={{ duration: 0.7, ease: "easeOut" }}
   viewport={{ once: true }}
 >
   {/* HEADER */}
-  <div className="mb-6 border-l-4 border-indigo-500 pl-4">
-    <h2 className="text-2xl font-semibold text-slate-900">
-      NORSE Profiles
-    </h2>
-    <p className="text-sm text-slate-500 mt-1">
-      Inflammatory signature stratification in NORSE patients
-    </p>
+  <div className="mb-8 flex items-start justify-between">
+    <div className="flex items-center gap-4">
+      <div className="flex flex-col items-center gap-1">
+        <div className="h-8 w-1 rounded-full bg-gradient-to-b from-slate-700 to-slate-400" />
+        <div className="h-2 w-1 rounded-full bg-slate-200" />
+      </div>
+      <div>
+        <div className="flex items-center gap-3 mb-1">
+          <h2 className="text-2xl font-bold tracking-tight text-slate-900">
+            NORSE Profiles
+          </h2>
+          <span className="flex items-center gap-1.5 bg-slate-100 text-slate-600
+                           text-xs font-semibold px-2.5 py-1 rounded-full border border-slate-200">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="animate-ping absolute inline-flex h-full w-full
+                               rounded-full bg-slate-400 opacity-75" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-slate-500" />
+            </span>
+            Active research
+          </span>
+        </div>
+        <p className="text-sm text-slate-400">
+          Inflammatory signature stratification in patients with NORSE/FIRES
+        </p>
+      </div>
+    </div>
   </div>
 
   {/* CARD */}
-  <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden">
-    <div className="grid md:grid-cols-2 gap-0">
+  <div className="relative bg-white rounded-3xl overflow-hidden
+                  shadow-xl shadow-slate-200/60 border border-slate-200/60">
 
-      {/* IMAGE */}
-      <div className="bg-gradient-to-br from-indigo-50 to-blue-50 flex items-center justify-center p-6">
-        <Image
-          src={iconeapp}
-          alt="NORSE Profiles platform"
-          className="rounded-xl shadow-lg w-full max-w-[320px] h-auto"
+    {/* Top gradient bar */}
+    <div className="h-[3px] w-full bg-gradient-to-r from-slate-800 via-slate-500 to-slate-300" />
+
+    <div className="grid lg:grid-cols-5">
+
+      {/* ── IMAGE PANE (2 / 5) ── */}
+      <div className="lg:col-span-2 relative bg-gradient-to-br from-slate-800 to-slate-600
+                      flex flex-col items-center justify-center p-10 min-h-[320px] overflow-hidden">
+
+        {/* Background grid */}
+        <div
+          className="absolute inset-0 opacity-[0.07]"
+          style={{
+            backgroundImage:
+              "radial-gradient(circle, white 1px, transparent 1px)",
+            backgroundSize: "28px 28px",
+          }}
         />
+        {/* Decorative circles */}
+        <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-white/5" />
+        <div className="absolute -bottom-16 -left-16 w-48 h-48 rounded-full bg-white/5" />
+
+        {/* Image */}
+        <div className="relative z-10 w-full max-w-[260px]">
+          {/* Outer glow */}
+          <div className="absolute inset-0 rounded-2xl bg-white/10 blur-2xl scale-110" />
+          <div className="relative rounded-2xl overflow-hidden border-2 border-white/20 shadow-2xl">
+            <Image
+              src={iconeapp}
+              alt="NORSE Profiles platform"
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+
+        {/* Caption */}
+        <div className="relative z-10 mt-6 flex items-center gap-3">
+          <div className="h-px w-8 bg-white/25" />
+          <p className="text-white/50 text-[11px] font-semibold tracking-widest uppercase">
+            Platform Preview
+          </p>
+          <div className="h-px w-8 bg-white/25" />
+        </div>
       </div>
 
-      {/* CONTENT */}
-      <div className="p-7 md:p-8">
+      {/* ── CONTENT PANE (3 / 5) ── */}
+      <div className="lg:col-span-3 flex flex-col p-8 lg:p-10">
 
-        <p className="text-slate-700 leading-relaxed mb-4">
-          <strong>NORSE Profiles</strong> is a translational research initiative
-          focused on identifying inflammatory endotypes in NORSE using
-          extended cytokine profiling.
-        </p>
-
-        <p className="text-slate-700 leading-relaxed mb-4">
-          Rather than relying on single biomarkers, the platform models cytokines
-          as integrated biological networks to better support 
-          <strong> precision medicine strategies</strong> and guide 
-          <strong> targeted immunotherapy selection</strong>.
-        </p>
-
-        <p className="text-slate-500 text-sm mb-6">
-          The platform is currently under active development and clinical research validation.
-        </p>
-
-        {/* TEAM */}
-        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 mb-6">
-          <p className="text-xs uppercase tracking-wide text-slate-400 mb-2">
-            Core development team
+        {/* Description */}
+        <div className="space-y-3 mb-6">
+          <p className="text-slate-700 leading-relaxed text-[15px]">
+            <span className="font-semibold text-slate-900">NORSE Profiles</span> is
+            a translational research initiative focused on identifying inflammatory
+            endotypes in NORSE through extended cytokine profiling.
           </p>
-          <p className="text-sm font-medium text-slate-800">
-            Linon Denis · Martin Guillemaud · Mario Chavez · Aurélie Hanin
+          <p className="text-slate-500 leading-relaxed text-[15px]">
+            Rather than relying on single biomarkers, the platform models cytokines
+            as integrated biological networks — supporting{" "}
+            <span className="font-semibold text-slate-700">precision medicine</span>{" "}
+            and guiding{" "}
+            <span className="font-semibold text-slate-700">
+              targeted immunotherapy selection
+            </span>.
           </p>
         </div>
 
+        {/* Feature pills */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          {[
+            { label: "Cytokine network modelling", icon: "🔬" },
+            { label: "Endotype stratification",    icon: "🧬" },
+            { label: "Immunotherapy targeting",    icon: "🎯" },
+          ].map((tag) => (
+            <span
+              key={tag.label}
+              className="inline-flex items-center gap-1.5 text-xs font-semibold
+                         bg-slate-50 text-slate-700 border border-slate-200
+                         px-3 py-1.5 rounded-full"
+            >
+              <span>{tag.icon}</span>
+              {tag.label}
+            </span>
+          ))}
+        </div>
+
+        {/* Stats row */}
+        <div className="grid grid-cols-3 gap-3 mb-6">
+          {[
+            { value: "2",    label: "Publications" },
+            { value: "4",    label: "Researchers"  },
+            { value: "2025", label: "Latest update" },
+          ].map((stat) => (
+            <div
+              key={stat.label}
+              className="flex flex-col items-center justify-center bg-slate-50
+                         border border-slate-100 rounded-2xl py-3 px-2"
+            >
+              <p className="text-xl font-bold text-slate-800 leading-none">
+                {stat.value}
+              </p>
+              <p className="text-[11px] text-slate-400 mt-1">{stat.label}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-slate-100 mb-6" />
+
+        {/* TEAM */}
+        <div className="mb-7">
+          <p className="text-[11px] uppercase tracking-widest text-slate-400 mb-3 font-semibold">
+            Core development team
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              "Linon Denis",
+              "Martin Guillemaud",
+              "Mario Chavez",
+              "Aurélie Hanin",
+            ].map((name) => (
+              <span
+                key={name}
+                className="inline-flex items-center gap-2 bg-white border border-slate-200
+                           text-slate-700 text-sm font-medium px-3 py-1.5 rounded-xl
+                           shadow-sm hover:shadow-md hover:border-slate-300 transition-all duration-200"
+              >
+                <span
+                  className="h-5 w-5 rounded-full bg-gradient-to-br from-slate-700 to-slate-400
+                             flex items-center justify-center text-[10px] text-white font-bold shrink-0"
+                >
+                  {name[0]}
+                </span>
+                {name}
+              </span>
+            ))}
+          </div>
+        </div>
+
         {/* CTA */}
-        <a
-          href="https://youtu.be/8fhLC8kwKcU"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2
-                     bg-indigo-600 hover:bg-indigo-700
-                     text-white text-sm font-medium
-                     px-5 py-3 rounded-xl transition"
-        >
-          Watch project overview
-        </a>
+        <div className="mt-auto">
+          <a
+            href="https://youtu.be/8fhLC8kwKcU"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2.5
+                       bg-slate-800 hover:bg-slate-900 active:scale-[0.97]
+                       text-white text-sm font-semibold
+                       px-6 py-3 rounded-xl
+                       shadow-lg shadow-slate-200
+                       transition-all duration-200"
+          >
+            <span
+              className="flex h-7 w-7 items-center justify-center rounded-full
+                         bg-white/15 group-hover:bg-white/25 transition"
+            >
+              <svg className="h-3 w-3 fill-white translate-x-px" viewBox="0 0 10 12">
+                <path d="M0 0l10 6-10 6z" />
+              </svg>
+            </span>
+            Watch project overview
+            <svg
+              className="h-4 w-4 opacity-50 group-hover:opacity-80
+                         group-hover:translate-x-0.5 transition-all"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
 
       </div>
     </div>
