@@ -404,7 +404,6 @@ export default function EuropeanBiobank() {
           {[
             { value: "2",    label: "Publications" },
             { value: "4",    label: "Researchers"  },
-            { value: "2025", label: "Latest update" },
           ].map((stat) => (
             <div
               key={stat.label}
