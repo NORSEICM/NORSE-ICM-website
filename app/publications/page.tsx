@@ -417,7 +417,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-slate-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Series (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">51 articles</span>
+              <span className="text-xs text-gray-400 italic">53 articles</span>
             </div>
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
@@ -578,6 +578,9 @@ export default function Publications() {
               </li>
               <li>Abe et al. Longitudinal changes in brain volume, cognitive function and seizure outcomes in cryptogenic NORSE. 2026.{" "}
                 <a href="https://doi.org/10.1016/j.jns.2026.125981" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">DOI 10.1016/j.jns.2026.125981</a>
+              </li>
+              <li>Tian et al. The electroencephalographic patterns in the acute phase of febrile infection related epilepsy syndrome in children. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42241938/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42241938</a>
               </li>
             </ol>
           </div>
@@ -1061,7 +1064,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Reports (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">47 articles</span>
+              <span className="text-xs text-gray-400 italic">45 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -1196,6 +1199,12 @@ export default function Publications() {
               <li>Bildik et al. Neuroimaging spectrum of immune‑mediated CNS disorders in children following SARS‑CoV‑2 infection — case series component. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42100917/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42100917</a>
               </li>
+              <li>Meng et al. Superfast VNS titration for the treatment of SRSE in the acute phase of FIRES: a pediatric case report and literature review. 2025.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42261675/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42261675</a>
+              </li>
+              <li>Pang et al. Case report: tocilizumab in pediatric febrile infection-related epilepsy syndrome. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42317346/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42317346</a>
+              </li>
             </ol>
           </div>
         </details>
@@ -1217,7 +1226,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-amber-600 text-white text-xs font-bold px-2 py-1 rounded-md">2006–2026</span>
               <span className="font-semibold text-slate-800">Others (2006 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">75 articles</span>
+              <span className="text-xs text-gray-400 italic">99 articles</span>
             </div>
             <span className="text-amber-600 font-bold text-xl">+</span>
           </summary>
@@ -1495,6 +1504,30 @@ export default function Publications() {
               </li>
               <li>Meletti et al. Acute Brain Injury in New-Onset Refractory Status Epilepticus and Etiology-Defined Status Epilepticus. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42043830/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42043830</a>
+              </li>
+              <li>Konomatsu et al. Vagus nerve stimulation markedly reduced startle-induced seizures after febrile infection-related epilepsy syndrome. 2025.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42216995/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42216995</a>
+              </li>
+              <li>Eschbach et al. New-onset refractory status epilepticus/febrile infection-related epilepsy syndrome centers of excellence: a framework for coordinated care, research, and improved outcomes. 2025.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42257690/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42257690</a>
+              </li>
+              <li>Farias-Moeller &amp; Lai. Biomarkers of new onset refractory status epilepticus (NORSE) and febrile infection-related epilepsy syndrome (FIRES). 2026.{" "}
+                <a href="https://doi.org/10.1016/j.spen.2026.101298" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101298</a>
+              </li>
+              <li>Hanin et al. Insights into new-onset refractory status epilepticus (NORSE) from biorepository-based studies. 2026.{" "}
+                <a href="https://doi.org/10.1016/j.spen.2026.101296" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101296</a>
+              </li>
+              <li>Eschbach &amp; Gofton. The post-acute phase of new-onset refractory status epilepticus (NORSE) / febrile infection-related epilepsy syndrome (FIRES). 2026.{" "}
+                <a href="https://doi.org/10.1016/j.spen.2026.101317" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101317</a>
+              </li>
+              <li>Fisher &amp; Muscal. Immunotherapies for NORSE and FIRES. 2026.{" "}
+                <a href="https://doi.org/10.1016/j.spen.2026.101295" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101295</a>
+              </li>
+              <li>Wickström et al. Recognizing NORSE and FIRES — clinical course, diagnosis and evaluation. 2026.{" "}
+                <a href="https://doi.org/10.1016/j.spen.2026.101294" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101294</a>
+              </li>
+              <li>Thomas et al. The creation of an international NORSE/FIRES virtual consultation forum. 2026.{" "}
+                <a href="https://doi.org/10.1016/j.spen.2026.101297" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101297</a>
               </li>
             </ol>
           </div>
