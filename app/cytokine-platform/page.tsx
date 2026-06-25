@@ -50,8 +50,8 @@ export default function EuropeanBiobank() {
           >
             {[
               { number: "12", label: "Inflammatory markers" },
-              { number: "880", label: "Serum samples analyzed" },
-              { number: "360", label: "CSF samples analyzed" },
+              { number: "888", label: "Serum samples analyzed" },
+              { number: "364", label: "CSF samples analyzed" },
               { number: "<7 days", label: "Turnaround time" },
             ].map((stat, index) => (
               <motion.div
@@ -219,13 +219,13 @@ export default function EuropeanBiobank() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {[
               {
-                number: "880",
+                number: "888",
                 label: "Serum Samples Analyzed",
                 from: "from-slate-700",
                 to: "to-slate-500",
               },
               {
-                number: "360",
+                number: "364",
                 label: "CSF Samples Analyzed",
                 from: "from-slate-600",
                 to: "to-slate-400",
@@ -402,7 +402,7 @@ export default function EuropeanBiobank() {
         {/* Stats row */}
         <div className="grid grid-cols-3 gap-3 mb-6">
           {[
-            { value: "2",    label: "Publications" },
+            { value: "3",    label: "Publications" },
             { value: "4",    label: "Researchers"  },
           ].map((stat) => (
             <div
@@ -503,6 +503,12 @@ export default function EuropeanBiobank() {
 
           <div className="space-y-4">
             {[
+              {
+                title: "Graph-based analysis of inflammatory profiles in New Onset Refractory Status Epilepticus (NORSE)",
+                authors: "Denis et al.",
+                journal: "arxiv — 2026",
+                url: "https://arxiv.org/abs/2606.24351",
+              },
               {
                 title: "Identification of Distinct Biological Groups of Patients With Cryptogenic NORSE via Inflammatory Profiling",
                 authors: "Guillemaud et al.",
