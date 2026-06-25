@@ -38,9 +38,9 @@ export default function LiteratureDatabase() {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             {[
-              { number: "421", label: "Eligible articles" },
+              { number: "432", label: "Eligible articles" },
               { number: "4,000+", label: "Patients described" },
-              { number: "1,300+", label: "Individual-level data" },
+              { number: "1,500+", label: "Individual-level data" },
               { number: "40+", label: "Countries represented" },
             ].map((stat, index) => (
               <motion.div
@@ -157,10 +157,10 @@ export default function LiteratureDatabase() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                   {[
-                    { label: "Search date", value: "Updated May 13, 2026" },
+                    { label: "Search date", value: "Updated June 25, 2026" },
                     { label: "Selection process", value: "Multi-step screening by two independent experts" },
                     { label: "Study types", value: "Case reports, case series, reviews, pathophysiology studies, guidelines" },
-                    { label: "Total eligible articles", value: "421 (175 case reports, 136 case series, 47 reviews, 28 pathophysiology studies)" },
+                    { label: "Total eligible articles", value: "432 (177 case reports, 137 case series, 53 reviews, 28 pathophysiology studies)" },
                   ].map((item) => (
                     <div key={item.label} className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                       <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide mb-1">{item.label}</p>
@@ -180,7 +180,7 @@ export default function LiteratureDatabase() {
                 <ul className="list-none space-y-2">
                   {[
                     "More than 4,000 patients described across all studies",
-                    "More than 1,300 patients with individual-level data available",
+                    "More than 1,500 patients with individual-level data available",
                     "Both pediatric and adult populations",
                     "Multi-country representation across 40+ countries",
                   ].map((item) => (
@@ -203,8 +203,8 @@ export default function LiteratureDatabase() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                   {[
-                    { country: "United States", count: "114 articles" },
-                    { country: "Japan", count: "45 articles" },
+                    { country: "United States", count: "119 articles" },
+                    { country: "Japan", count: "46 articles" },
                     { country: "Italy", count: "37 articles" },
                   ].map((item) => (
                     <div key={item.country} className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center">
