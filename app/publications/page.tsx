@@ -34,9 +34,9 @@ export default function Publications() {
       transition={{ duration: 0.8, delay: 0.5 }}
     >
       {[
-        { number: "136", label: "Case series" },
-        { number: "175", label: "Case reports" },
-        { number: "47", label: "Reviews" },
+        { number: "137", label: "Case series" },
+        { number: "177", label: "Case reports" },
+        { number: "53", label: "Reviews" },
         { number: "28", label: "Pathophysiology studies" },
       ].map((stat, index) => (
         <motion.div
@@ -77,7 +77,7 @@ export default function Publications() {
 >
   Case Series
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">136 published case series — 2001 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">137 published case series — 2001 to 2026</p>
 
         {/* === SECTION 2001–2005 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -593,7 +593,7 @@ export default function Publications() {
 >
   Case Reports
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">175 published case reports — 2006 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">177 published case reports — 2006 to 2026</p>
 
         {/* === CASE REPORTS 2006–2010 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
