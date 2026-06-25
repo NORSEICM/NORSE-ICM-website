@@ -1064,7 +1064,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Reports (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">47 articles</span>
+              <span className="text-xs text-gray-400 italic">45 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
