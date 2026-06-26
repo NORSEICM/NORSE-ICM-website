@@ -34,8 +34,8 @@ export default function Publications() {
       transition={{ duration: 0.8, delay: 0.5 }}
     >
       {[
-        { number: "137", label: "Case series" },
-        { number: "177", label: "Case reports" },
+        { number: "138", label: "Case series" },
+        { number: "176", label: "Case reports" },
         { number: "53", label: "Reviews" },
         { number: "28", label: "Pathophysiology studies" },
       ].map((stat, index) => (
@@ -77,7 +77,7 @@ export default function Publications() {
 >
   Case Series
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">137 published case series — 2001 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">138 published case series — 2001 to 2026</p>
 
         {/* === SECTION 2001–2005 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -417,7 +417,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-slate-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Series (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">53 articles</span>
+              <span className="text-xs text-gray-400 italic">54 articles</span>
             </div>
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
@@ -582,6 +582,9 @@ export default function Publications() {
               <li>Tian et al. The electroencephalographic patterns in the acute phase of febrile infection related epilepsy syndrome in children. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42241938/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42241938</a>
               </li>
+               <li>Pang et al. Case report: tocilizumab in pediatric febrile infection-related epilepsy syndrome. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42317346/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42317346</a>
+              </li>
             </ol>
           </div>
         </details>
@@ -596,7 +599,7 @@ export default function Publications() {
 >
   Case Reports
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">177 published case reports — 2006 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">176 published case reports — 2006 to 2026</p>
 
         {/* === CASE REPORTS 2006–2010 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -1064,7 +1067,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Reports (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">45 articles</span>
+              <span className="text-xs text-gray-400 italic">44 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -1201,9 +1204,6 @@ export default function Publications() {
               </li>
               <li>Meng et al. Superfast VNS titration for the treatment of SRSE in the acute phase of FIRES: a pediatric case report and literature review. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42261675/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42261675</a>
-              </li>
-              <li>Pang et al. Case report: tocilizumab in pediatric febrile infection-related epilepsy syndrome. 2026.{" "}
-                <a href="https://pubmed.ncbi.nlm.nih.gov/42317346/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42317346</a>
               </li>
             </ol>
           </div>

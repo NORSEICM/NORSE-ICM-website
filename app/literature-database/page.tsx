@@ -160,7 +160,7 @@ export default function LiteratureDatabase() {
                     { label: "Search date", value: "Updated June 25, 2026" },
                     { label: "Selection process", value: "Multi-step screening by two independent experts" },
                     { label: "Study types", value: "Case reports, case series, reviews, pathophysiology studies, guidelines" },
-                    { label: "Total eligible articles", value: "432 (177 case reports, 137 case series, 53 reviews, 28 pathophysiology studies)" },
+                    { label: "Total eligible articles", value: "432 (176 case reports, 138 case series, 53 reviews, 28 pathophysiology studies)" },
                   ].map((item) => (
                     <div key={item.label} className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                       <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide mb-1">{item.label}</p>
