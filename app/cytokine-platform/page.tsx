@@ -50,8 +50,8 @@ export default function EuropeanBiobank() {
           >
             {[
               { number: "12", label: "Inflammatory markers" },
-              { number: "888", label: "Serum samples analyzed" },
-              { number: "364", label: "CSF samples analyzed" },
+              { number: "901", label: "Serum samples analyzed" },
+              { number: "375", label: "CSF samples analyzed" },
               { number: "<7 days", label: "Turnaround time" },
             ].map((stat, index) => (
               <motion.div
@@ -219,13 +219,13 @@ export default function EuropeanBiobank() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {[
               {
-                number: "888",
+                number: "901",
                 label: "Serum Samples Analyzed",
                 from: "from-slate-700",
                 to: "to-slate-500",
               },
               {
-                number: "364",
+                number: "375",
                 label: "CSF Samples Analyzed",
                 from: "from-slate-600",
                 to: "to-slate-400",
