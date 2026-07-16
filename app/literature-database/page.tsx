@@ -203,7 +203,7 @@ export default function LiteratureDatabase() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                   {[
-                    { country: "United States", count: "122 articles" },
+                    { country: "United States", count: "123 articles" },
                     { country: "Japan", count: "46 articles" },
                     { country: "Italy", count: "38 articles" },
                   ].map((item) => (
