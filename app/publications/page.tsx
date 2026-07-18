@@ -1554,7 +1554,7 @@ export default function Publications() {
                 <a href="https://doi.org/10.1016/j.spen.2026.101319" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101319</a>
               </li>
               <li>Phong et al. Time-dependent changes in cerebrospinal fluid cytokines in NORSE and FIRES: A systematic review. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.seizure.2026.07.001" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.seizure.2026.07.001</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42462374/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.seizure.2026.07.001</a>
               </li>
               <li>Gettings et al. Symptomatic Management of NORSE/FIRES: Acute and Chronic Anti-seizure Treatment. 2026.{" "}
                 <a href="https://doi.org/10.1016/j.spen.2026.101320" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101320</a>
