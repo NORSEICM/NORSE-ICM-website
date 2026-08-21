@@ -34,10 +34,10 @@ export default function Publications() {
       transition={{ duration: 0.8, delay: 0.5 }}
     >
       {[
-        { number: "142", label: "Case series" },
-        { number: "178", label: "Case reports" },
-        { number: "58", label: "Reviews" },
-        { number: "28", label: "Pathophysiology studies" },
+        { number: "144", label: "Case series" },
+        { number: "180", label: "Case reports" },
+        { number: "61", label: "Reviews" },
+        { number: "29", label: "Pathophysiology studies" },
       ].map((stat, index) => (
         <motion.div
           key={stat.label}
@@ -77,7 +77,7 @@ export default function Publications() {
 >
   Case Series
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">142 published case series — 2001 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">144 published case series — 2001 to 2026</p>
 
         {/* === SECTION 2001–2005 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -417,7 +417,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-slate-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Series (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">58 articles</span>
+              <span className="text-xs text-gray-400 italic">60 articles</span>
             </div>
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
@@ -592,10 +592,16 @@ export default function Publications() {
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42400400/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42400400</a>
               </li>
               <li>Soler Wenglein et al. Febrile infection-related epilepsy syndrome (FIRES): duration of therapeutic coma and treatment intensity correlate with poorer functional outcome. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.pediatrneurol.2026.07.014" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">DOI 10.1016/j.pediatrneurol.2026.07.014</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42537571/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42537571</a>
               </li>
-              <li>Hawksworth et al. New onset refractory status epilepticus (NORSE) versus refractory status epilepticus not meeting NORSE criteria: A comparative clinical and electroencephalography-based study. 2025.{" "}
+              <li>Hawksworth et al. New onset refractory status epilepticus (NORSE) versus refractory status epilepticus not meeting NORSE criteria: A comparative clinical and electroencephalography-based study. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42446501/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42446501</a>
+              </li>
+              <li>Lin et al. Multidisciplinary management and nursing care for pediatric patients with febrile infection-related epilepsy syndrome in the acute phase: A case series. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42470032/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42470032</a>
+              </li>
+              <li>Cruz-Perez et al. Management Challenges and Clinical Characteristics of Refractory Status Epilepticus in Mexico: A 102 Patient Retrospective Cohort Study. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42568019/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42568019</a>
               </li>
             </ol>
           </div>
@@ -611,7 +617,7 @@ export default function Publications() {
 >
   Case Reports
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">178 published case reports — 2006 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">180 published case reports — 2006 to 2026</p>
 
         {/* === CASE REPORTS 2006–2010 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -1079,7 +1085,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Reports (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">46 articles</span>
+              <span className="text-xs text-gray-400 italic">48 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -1220,8 +1226,14 @@ export default function Publications() {
               <li>Zhang et al. Anakinra for tocilizumab-refractory febrile infection-related epilepsy syndrome with normal IL-1β levels: a case report. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42367793/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42367793</a>
               </li>
-              <li>Ocakdan et al. Super-refractory Status Epilepticus in Febrile Infection-Related Epilepsy Syndrome Triggered by Influenza A: A Pediatric Case Report. 2025.{" "}
+              <li>Ocakdan et al. Super-refractory Status Epilepticus in Febrile Infection-Related Epilepsy Syndrome Triggered by Influenza A: A Pediatric Case Report. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42404327/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42404327</a>
+              </li>
+              <li>Alamri et al. Febrile infection-related epilepsy syndrome (FIRES): Long-term challenges of phenobarbital management and drug-resistant epilepsy. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42494178/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42494178</a>
+              </li>
+              <li>Chou et al. Case Report: Anti-GABA-B receptor encephalitis with refractory status epilepticus and favorable short-term recovery. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42614298/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42614298</a>
               </li>
             </ol>
           </div>
@@ -1244,7 +1256,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-amber-600 text-white text-xs font-bold px-2 py-1 rounded-md">2006–2026</span>
               <span className="font-semibold text-slate-800">Others (2006 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">104 articles</span>
+              <span className="text-xs text-gray-400 italic">108 articles</span>
             </div>
             <span className="text-amber-600 font-bold text-xl">+</span>
           </summary>
@@ -1561,6 +1573,18 @@ export default function Publications() {
               </li>
               <li>Mantoan Ritter et al. Neuromodulation in NORSE/FIRES. 2026.{" "}
                 <a href="https://doi.org/10.1016/j.spen.2026.101322" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101322</a>
+              </li>
+              <li>Kuo et al. Vagus nerve stimulation for refractory status epilepticus: A systematic review. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42531696/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42531696</a>
+              </li>
+              <li>Wang et al. Total bilirubin-to-albumin ratio and systemic immune inflammation index as prognostic indicators in children with febrile infection-related epilepsy syndrome. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42551214/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42551214</a>
+              </li>
+              <li>Burani et al. Claustrum Involvement in New Onset Refractory Status Epilepticus: A Systematic Review. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42552664/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42552664</a>
+              </li>
+              <li>Phong et al. Adaptive immune dysregulation drives new-onset refractory status epilepticus. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42597690/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42597690</a>
               </li>
             </ol>
           </div>

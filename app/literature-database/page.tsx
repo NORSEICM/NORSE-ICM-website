@@ -38,9 +38,9 @@ export default function LiteratureDatabase() {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             {[
-              { number: "443", label: "Eligible articles" },
+              { number: "451", label: "Eligible articles" },
               { number: "4,000+", label: "Patients described" },
-              { number: "1,700+", label: "Individual-level data" },
+              { number: "1!00+", label: "Individual-level data" },
               { number: "40+", label: "Countries represented" },
             ].map((stat, index) => (
               <motion.div
@@ -157,10 +157,10 @@ export default function LiteratureDatabase() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                   {[
-                    { label: "Search date", value: "Updated July 17, 2026" },
+                    { label: "Search date", value: "Updated August 21, 2026" },
                     { label: "Selection process", value: "Multi-step screening by two independent experts" },
                     { label: "Study types", value: "Case reports, case series, reviews, pathophysiology studies, guidelines" },
-                    { label: "Total eligible articles", value: "443 (178 case reports, 142 case series, 58 reviews, 28 pathophysiology studies)" },
+                    { label: "Total eligible articles", value: "451 (180 case reports, 144 case series, 61 reviews, 29 pathophysiology studies)" },
                   ].map((item) => (
                     <div key={item.label} className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                       <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide mb-1">{item.label}</p>
@@ -180,7 +180,7 @@ export default function LiteratureDatabase() {
                 <ul className="list-none space-y-2">
                   {[
                     "More than 4,000 patients described across all studies",
-                    "More than 1,700 patients with individual-level data available",
+                    "More than 1,800 patients with individual-level data available",
                     "Both pediatric and adult populations",
                     "Multi-country representation across 40+ countries",
                   ].map((item) => (
@@ -205,7 +205,7 @@ export default function LiteratureDatabase() {
                   {[
                     { country: "United States", count: "123 articles" },
                     { country: "Japan", count: "46 articles" },
-                    { country: "Italy", count: "38 articles" },
+                    { country: "Italy", count: "39 articles" },
                   ].map((item) => (
                     <div key={item.country} className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center">
                       <p className="font-semibold text-slate-800">{item.country}</p>
@@ -256,7 +256,7 @@ export default function LiteratureDatabase() {
           </summary>
           <div className="px-6 py-5 border-t border-gray-200 space-y-3">
             {[
-              { id: "A", title: "Demographics", content: <p className="text-gray-700">Country of enrollment, age group (pediatric vs. adult), age at presentation, sex.</p> },
+              { id: "A", title: "Demographics", content: <p className="text-gray-700">Country of enrollment, center of enrollment, age group (pediatric vs. adult), age at presentation, sex.</p> },
               { id: "B", title: "Presentation", content: <div className="text-gray-700 space-y-2"><p><strong>FIRES classification</strong></p><p><strong>Prodromal symptoms:</strong> fatigue, respiratory symptoms, gastrointestinal symptoms, behavioral changes, headache, rash, consciousness alterations, memory disturbances, sleep disorders.</p></div> },
               { id: "C", title: "Etiology", content: <p className="text-gray-700">Cryptogenic, autoimmune encephalitis (AIE), viral, genetic, and other identified causes with detailed characterization.</p> },
             { id: "D", title: "Treatment", content: (
@@ -265,7 +265,7 @@ export default function LiteratureDatabase() {
       <p className="font-semibold mb-2">Immunotherapies:</p>
       <ul className="list-none space-y-1 ml-2">
         {[
-          { label: "First-line", value: "steroids, Intravenous immunoglobulin, plasma exchange" },
+          { label: "First-line", value: "steroids, intravenous immunoglobulin, plasma exchange" },
           { label: "Second-line", value: "anakinra, tocilizumab, intrathecal steroids, rituximab, cyclophosphamide, anti-JAK-STAT agents" },
           { label: "Dosages", value: "and time-to-initiation when available" },
         ].map((item) => (
@@ -327,7 +327,7 @@ export default function LiteratureDatabase() {
                   <div className="bg-slate-50 rounded-lg p-4">
                     <p className="font-semibold text-slate-800 mb-2">Follow-up period</p>
                     <ul className="list-none space-y-1">
-                      {["Duration of follow-up", "Functional outcomes (modified Rankin scale score and classification : good mRS 0-2 vs. poor outcome mRS 3-6)", "Mortality at last follow-up", "Development of post-NORSE epilepsy", "Status epilepticus recurrence and number of subsequent events", "Chronic MRI, PET, and EEG findings"].map((item) => (
+                      {["Duration of follow-up", "Functional outcomes (modified Rankin scale score and classification : good mRS 0-2 vs. poor outcome mRS 3-6)", "Mortality at last follow-up", "Development of post-NORSE epilepsy", "Status epilepticus recurrence and number of subsequent events", "Treatment during follow-up", "Chronic MRI, PET, and EEG findings"].map((item) => (
                         <li key={item} className="flex items-start gap-2"><span className="text-slate-600 font-bold mt-0.5">→</span>{item}</li>
                       ))}
                     </ul>
