@@ -40,7 +40,7 @@ export default function LiteratureDatabase() {
             {[
               { number: "451", label: "Eligible articles" },
               { number: "4,000+", label: "Patients described" },
-              { number: "1!00+", label: "Individual-level data" },
+              { number: "1,800+", label: "Individual-level data" },
               { number: "40+", label: "Countries represented" },
             ].map((stat, index) => (
               <motion.div
