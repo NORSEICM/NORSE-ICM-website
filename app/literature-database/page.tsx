@@ -40,7 +40,7 @@ export default function LiteratureDatabase() {
             {[
               { number: "451", label: "Eligible articles" },
               { number: "4,000+", label: "Patients described" },
-              { number: "1,800+", label: "Individual-level data" },
+              { number: "1,850+", label: "Individual-level data" },
               { number: "40+", label: "Countries represented" },
             ].map((stat, index) => (
               <motion.div
@@ -180,7 +180,7 @@ export default function LiteratureDatabase() {
                 <ul className="list-none space-y-2">
                   {[
                     "More than 4,000 patients described across all studies",
-                    "More than 1,800 patients with individual-level data available",
+                    "More than 1,850 patients with individual-level data available",
                     "Both pediatric and adult populations",
                     "Multi-country representation across 40+ countries",
                   ].map((item) => (
