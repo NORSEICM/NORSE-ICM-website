@@ -38,7 +38,7 @@ export default function LiteratureDatabase() {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             {[
-              { number: "451", label: "Eligible articles" },
+              { number: "463", label: "Eligible articles" },
               { number: "4,000+", label: "Patients described" },
               { number: "1,850+", label: "Individual-level data" },
               { number: "40+", label: "Countries represented" },
@@ -157,10 +157,10 @@ export default function LiteratureDatabase() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                   {[
-                    { label: "Search date", value: "Updated August 21, 2026" },
+                    { label: "Search date", value: "Updated September 14, 2026" },
                     { label: "Selection process", value: "Multi-step screening by two independent experts" },
                     { label: "Study types", value: "Case reports, case series, reviews, pathophysiology studies, guidelines" },
-                    { label: "Total eligible articles", value: "451 (180 case reports, 144 case series, 61 reviews, 29 pathophysiology studies)" },
+                    { label: "Total eligible articles", value: "463 (184 case reports, 150 case series, 62 reviews, 29 pathophysiology studies)" },
                   ].map((item) => (
                     <div key={item.label} className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                       <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide mb-1">{item.label}</p>
@@ -203,9 +203,10 @@ export default function LiteratureDatabase() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                   {[
-                    { country: "United States", count: "123 articles" },
-                    { country: "Japan", count: "46 articles" },
+                    { country: "United States", count: "125 articles" },
+                    { country: "Japan", count: "50 articles" },
                     { country: "Italy", count: "39 articles" },
+                    { country: "China", count: "39 articles" },
                   ].map((item) => (
                     <div key={item.country} className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center">
                       <p className="font-semibold text-slate-800">{item.country}</p>
@@ -327,7 +328,7 @@ export default function LiteratureDatabase() {
                   <div className="bg-slate-50 rounded-lg p-4">
                     <p className="font-semibold text-slate-800 mb-2">Follow-up period</p>
                     <ul className="list-none space-y-1">
-                      {["Duration of follow-up", "Functional outcomes (modified Rankin scale score and classification : good mRS 0-2 vs. poor outcome mRS 3-6)", "Mortality at last follow-up", "Development of post-NORSE epilepsy", "Status epilepticus recurrence and number of subsequent events", "Treatment during follow-up", "Chronic MRI, PET, and EEG findings"].map((item) => (
+                      {["Duration of follow-up", "Functional outcomes", "Mortality at last follow-up", "Development of post-NORSE epilepsy", "Status epilepticus recurrence and number of subsequent events", "Treatment during follow-up", "Chronic MRI, PET, and EEG findings"].map((item) => (
                         <li key={item} className="flex items-start gap-2"><span className="text-slate-600 font-bold mt-0.5">→</span>{item}</li>
                       ))}
                     </ul>

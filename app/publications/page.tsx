@@ -34,9 +34,9 @@ export default function Publications() {
       transition={{ duration: 0.8, delay: 0.5 }}
     >
       {[
-        { number: "144", label: "Case series" },
-        { number: "180", label: "Case reports" },
-        { number: "61", label: "Reviews" },
+        { number: "150", label: "Case series" },
+        { number: "184", label: "Case reports" },
+        { number: "62", label: "Reviews" },
         { number: "29", label: "Pathophysiology studies" },
       ].map((stat, index) => (
         <motion.div
@@ -77,7 +77,7 @@ export default function Publications() {
 >
   Case Series
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">144 published case series — 2001 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">150 published case series — 2001 to 2026</p>
 
         {/* === SECTION 2001–2005 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -116,7 +116,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-slate-700 text-white text-xs font-bold px-2 py-1 rounded-md">2006–2010</span>
               <span className="font-semibold text-slate-800">Case Series (2006 – 2010)</span>
-              <span className="text-xs text-gray-400 italic">10 articles</span>
+              <span className="text-xs text-gray-400 italic">12 articles</span>
             </div>
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
@@ -151,6 +151,12 @@ export default function Publications() {
               </li>
               <li>Nabbout et al. Efficacy of ketogenic diet in severe refractory status epilepticus initiating fever‑induced refractory epileptic encephalopathy in school‑age children (FIRES). 2010.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/20813015/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 20813015</a>
+              </li>
+              <li>Okumura et al. Amplitude-integrated electroencephalography in patients with acute encephalopathy with refractory, repetitive partial seizures. 2010.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/20092972/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 20092972</a>
+              </li>
+              <li>Fugate et al. Prolonged high-dose isoflurane for refractory status epilepticus: is it safe?. 2010.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/20841413/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 20841413</a>
               </li>
             </ol>
           </div>
@@ -417,7 +423,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-slate-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Series (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">60 articles</span>
+              <span className="text-xs text-gray-400 italic">64 articles</span>
             </div>
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
@@ -577,7 +583,7 @@ export default function Publications() {
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41498863/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 41498863</a>
               </li>
               <li>Abe et al. Longitudinal changes in brain volume, cognitive function and seizure outcomes in cryptogenic NORSE. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.jns.2026.125981" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">DOI 10.1016/j.jns.2026.125981</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42184585/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42184585</a>
               </li>
               <li>Tian et al. The electroencephalographic patterns in the acute phase of febrile infection related epilepsy syndrome in children. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42241938/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42241938</a>
@@ -603,6 +609,18 @@ export default function Publications() {
               <li>Cruz-Perez et al. Management Challenges and Clinical Characteristics of Refractory Status Epilepticus in Mexico: A 102 Patient Retrospective Cohort Study. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42568019/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42568019</a>
               </li>
+              <li>Khan et al. Claustrum Sign in Febrile Infection-Related Epilepsy Syndrome. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42619283/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42619283</a>
+              </li>
+              <li>Han et al. Electroencephalographic and neuroimaging prognosticators in pediatric FIRES with claustrum lesions: A 21-case retrospective study. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42641489/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42641489</a>
+              </li>
+              <li>Junemann et al. Clinical outcomes and unmet therapeutic needs in new-onset refractory status epilepticus: evidence from a retrospective cohort. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42665853/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42665853</a>
+              </li>
+              <li>Liu et al. Efficacy and safety of tocilizumab in the chronic phase of febrile infection-related epilepsy syndrome: a retrospective cohort study. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42696242/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42696242</a>
+              </li>
             </ol>
           </div>
         </details>
@@ -617,7 +635,7 @@ export default function Publications() {
 >
   Case Reports
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">180 published case reports — 2006 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">184 published case reports — 2006 to 2026</p>
 
         {/* === CASE REPORTS 2006–2010 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -647,7 +665,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2011–2015</span>
               <span className="font-semibold text-slate-800">Case Reports (2011 – 2015)</span>
-              <span className="text-xs text-gray-400 italic">22 articles</span>
+              <span className="text-xs text-gray-400 italic">23 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -667,6 +685,9 @@ export default function Publications() {
               </li>
               <li>Boyd et al. Temporal lobe epilepsy after refractory status epilepticus: an illustrative case and review of the literature. 2012.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/22953058/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 22953058</a>
+              </li>
+              <li>Wakamoto et al. An immunologic case study of acute encephalitis with refractory, repetitive partial seizures. 2012.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/22265641/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 22265641</a>
               </li>
               <li>Nozaki et al. Reversible splenic lesion in a patient with febrile infection‑related epilepsy syndrome (FIRES). 2013.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/23794447/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 23794447</a>
@@ -729,7 +750,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2016–2020</span>
               <span className="font-semibold text-slate-800">Case Reports (2016 – 2020)</span>
-              <span className="text-xs text-gray-400 italic">52 articles</span>
+              <span className="text-xs text-gray-400 italic">53 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -743,6 +764,9 @@ export default function Publications() {
               </li>
               <li>Sato et al. Acute encephalitis with refractory, repetitive partial seizures: pathological findings and a new therapeutic approach using tacrolimus. 2016.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/26906012/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 26906012</a>
+              </li>
+               <li>Uchida et al. High-dose phenobarbital with intermittent short-acting barbiturates for acute encephalitis with refractory, repetitive partial seizures. 2016.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/27273286/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 27273286</a>
               </li>
               <li>Chou et al. Marked improvement in febrile infection‑related epilepsy syndrome after lidocaine plus MgSO₄ treatment in a 12‑year‑old girl. 2016.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/27358770/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 27358770</a>
@@ -1085,7 +1109,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Reports (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">48 articles</span>
+              <span className="text-xs text-gray-400 italic">50 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -1108,6 +1132,9 @@ export default function Publications() {
               </li>
               <li>Kumar et al. Serial MRI changes in FIRES: a clinical and radiologic exploration. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/38912543/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 38912543</a>
+              </li>
+              <li>Liverant et al. His brain is on FIRES. 2024.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/39033467/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 39033467</a>
               </li>
               <li>Yoneno et al. Efficacy of ketogenic diet in chronic phase FIRES. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39119419/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 39119419</a>
@@ -1144,6 +1171,9 @@ export default function Publications() {
               </li>
               <li>Ochiai et al. Potential role of perampanel in reducing barbiturate dependency in FIRES: a case report. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39958143/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 39958143</a>
+              </li>
+              <li>Horiuchi et al. Status Epilepticus Caused by Tick-borne Encephalitis. 2025.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/40128988/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 40128988</a>
               </li>
               <li>Konomatsu et al. Adult‑onset epilepsy with startle‑induced seizure after FIRES. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/40232152/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 40232152</a>
@@ -1256,7 +1286,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-amber-600 text-white text-xs font-bold px-2 py-1 rounded-md">2006–2026</span>
               <span className="font-semibold text-slate-800">Others (2006 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">108 articles</span>
+              <span className="text-xs text-gray-400 italic">110 articles</span>
             </div>
             <span className="text-amber-600 font-bold text-xl">+</span>
           </summary>
@@ -1393,6 +1423,9 @@ export default function Publications() {
               </li>
               <li>Wang et al. Multi-proteomic Analysis Revealed Distinct Protein Profiles in Cerebrospinal Fluid of Patients Between Anti-NMDAR Encephalitis NORSE and Cryptogenic NORSE. 2023.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/36224320/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 36224320</a>
+              </li>
+               <li>Lin et al. The nuances of immunotherapy for NORSE/FIRES. 2022.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/36266948/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 36266948</a>
               </li>
               <li>Wong et al. Surviving status epilepticus: The patient and family perspective. 2023.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/36521408/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 36521408</a>
@@ -1585,6 +1618,9 @@ export default function Publications() {
               </li>
               <li>Phong et al. Adaptive immune dysregulation drives new-onset refractory status epilepticus. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42597690/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42597690</a>
+              </li>
+              <li>Eyre et al. Infection-triggered encephalopathy syndromes: a meta-analysis of clinical characteristics and outcomes in 1946 cases. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42699010/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42699010</a>
               </li>
             </ol>
           </div>
