@@ -173,7 +173,7 @@ export default function Publications() {
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
-            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={16}>
+            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={18}>
               <li>Mazzuca et al. 18F‑FDG PET reveals frontotemporal dysfunction in children with fever‑induced refractory epileptic encephalopathy. 2011.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/21149491/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 21149491</a>
               </li>
@@ -237,7 +237,7 @@ export default function Publications() {
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
-            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={32}>
+            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={34}>
               <li>Rivas‑Coppola et al. Chronological evolution of MRI findings in children with febrile infection‑related epilepsy syndrome (FIRES). 2016.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/26597039/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 26597039</a>
               </li>
@@ -334,7 +334,7 @@ export default function Publications() {
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
-            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={59}>
+            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={61}>
               <li>Horino et al. Intrathecal dexamethasone therapy for febrile infection‑related epilepsy syndrome. 2021.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/33547757/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 33547757</a>
               </li>
@@ -428,7 +428,7 @@ export default function Publications() {
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
-            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={85}>
+            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={87}>
               <li>Moreno‑Braurer P et al. Spectrum, evolution and clinical relationship of MRI in 31 children with FIRES. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/37798920/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 37798920</a>
               </li>
@@ -755,7 +755,7 @@ export default function Publications() {
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
-            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={25}>
+            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={26}>
               <li>Ogawa et al. Autopsy findings of a patient with acute encephalitis and refractory, repetitive partial seizures. 2016.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/26803054/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 26803054</a>
               </li>
@@ -930,7 +930,7 @@ export default function Publications() {
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
-            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={77}>
+            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={79}>
               <li>Dono et al. New‑onset refractory status epilepticus (NORSE) in post‑SARS‑CoV‑2 autoimmune encephalitis: a case report. 2021.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/33145624/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 33145624</a>
               </li>
@@ -1114,7 +1114,7 @@ export default function Publications() {
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
-            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={133}>
+            <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={135}>
               <li>Mehboob et al. Refractory status epilepticus arrested by vagus nerve stimulation. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/37875347/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 37875347</a>
               </li>
