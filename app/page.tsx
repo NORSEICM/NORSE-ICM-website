@@ -270,6 +270,7 @@ export default function Home() {
       { name: "Dr. Aurélie Hanin", role: ["PharmD, PhD", "Research Coordinator & Biologist"], image: "/aurelie.png", position: "center" },
       { name: "Dr. Zineb Hayatou", role: ["Clinical Research", "Associate (CRA)"], image: "/zineb3.png", position: "top" },
       { name: "BS. Léa Cosme", role: ["Project", "Manager (PM)"], image: "/lea.png", position: "top" },
+      { name: "BS. Matthew Gruen", role: ["Data", "Analyst"], image: "/matthew.png", position: "top" },
     ].map((m, index) => (
       <motion.div
         key={m.name}
