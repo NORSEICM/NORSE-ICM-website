@@ -213,7 +213,7 @@ export default function EuropeanBiobank() {
           </h2>
 
           <p className="text-sm text-gray-400 italic mb-6">
-            Updated: September 14, 2026
+            Updated: October 05, 2026
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
