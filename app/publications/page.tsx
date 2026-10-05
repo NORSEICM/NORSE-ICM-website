@@ -35,8 +35,8 @@ export default function Publications() {
     >
       {[
         { number: "150", label: "Case series" },
-        { number: "184", label: "Case reports" },
-        { number: "62", label: "Reviews" },
+        { number: "185", label: "Case reports" },
+        { number: "63", label: "Reviews" },
         { number: "29", label: "Pathophysiology studies" },
       ].map((stat, index) => (
         <motion.div
@@ -635,7 +635,7 @@ export default function Publications() {
 >
   Case Reports
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">184 published case reports — 2006 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">185 published case reports — 2006 to 2026</p>
 
         {/* === CASE REPORTS 2006–2010 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -1109,7 +1109,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Reports (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">50 articles</span>
+              <span className="text-xs text-gray-400 italic">51 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -1227,7 +1227,7 @@ export default function Publications() {
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41480377/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 41480377</a>
               </li>
               <li>Park et al. Advancing FIRES treatment: the potential of intrathecal dexamethasone. 2025.{" "}
-                <a href="https://doi.org/10.1002/cns3.70008" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">DOI 10.1002/cns3.70008</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42563795/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42563795</a>
               </li>
               <li>Nico et al. Rapid recovery after intrathecal dexamethasone in FIRES. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41502299/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 41502299</a>
@@ -1265,6 +1265,9 @@ export default function Publications() {
               <li>Chou et al. Case Report: Anti-GABA-B receptor encephalitis with refractory status epilepticus and favorable short-term recovery. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42614298/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42614298</a>
               </li>
+              <li>Yang et al. Febrile infection-related epilepsy syndrome with claustrum sign following a human rhinovirus-positive respiratory illness in an adult: a case report. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42824462/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42824462</a>
+              </li>
             </ol>
           </div>
         </details>
@@ -1286,7 +1289,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-amber-600 text-white text-xs font-bold px-2 py-1 rounded-md">2006–2026</span>
               <span className="font-semibold text-slate-800">Others (2006 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">110 articles</span>
+              <span className="text-xs text-gray-400 italic">111 articles</span>
             </div>
             <span className="text-amber-600 font-bold text-xl">+</span>
           </summary>
@@ -1578,34 +1581,34 @@ export default function Publications() {
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42257690/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42257690</a>
               </li>
               <li>Farias-Moeller &amp; Lai. Biomarkers of new onset refractory status epilepticus (NORSE) and febrile infection-related epilepsy syndrome (FIRES). 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101298" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101298</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42822996/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42822996</a>
               </li>
               <li>Hanin et al. Insights into new-onset refractory status epilepticus (NORSE) from biorepository-based studies. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101296" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101296</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42822994/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42822994</a>
               </li>
               <li>Eschbach &amp; Gofton. The post-acute phase of new-onset refractory status epilepticus (NORSE) / febrile infection-related epilepsy syndrome (FIRES). 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101317" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101317</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42823003/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42823003</a>
               </li>
               <li>Fisher &amp; Muscal. Immunotherapies for NORSE and FIRES. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101295" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101295</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42822993/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42822993</a>
               </li>
               <li>Wickström et al. Recognizing NORSE and FIRES — clinical course, diagnosis and evaluation. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101294" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101294</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42822992/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42822992</a>
               </li>
               <li>Thomas et al. The creation of an international NORSE/FIRES virtual consultation forum. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101297" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101297</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42822995/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42822995</a>
               </li>
               <li>Wong et al. Physician–Family Communication in New-Onset Refractory Status Epilepticus (NORSE): Communicating when there are few answers. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101319" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101319</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42822999/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42822999</a>
               </li>
               <li>Phong et al. Time-dependent changes in cerebrospinal fluid cytokines in NORSE and FIRES: A systematic review. 2026.{" "}
-                <a href="https://pubmed.ncbi.nlm.nih.gov/42462374/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.seizure.2026.07.001</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42462374/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42462374</a>
               </li>
               <li>Gettings et al. Symptomatic Management of NORSE/FIRES: Acute and Chronic Anti-seizure Treatment. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101320" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101320</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42823000/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42823000</a>
               </li>
               <li>Mantoan Ritter et al. Neuromodulation in NORSE/FIRES. 2026.{" "}
-                <a href="https://doi.org/10.1016/j.spen.2026.101322" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">DOI 10.1016/j.spen.2026.101322</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42823002/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42823002</a>
               </li>
               <li>Kuo et al. Vagus nerve stimulation for refractory status epilepticus: A systematic review. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42531696/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42531696</a>
@@ -1621,6 +1624,9 @@ export default function Publications() {
               </li>
               <li>Eyre et al. Infection-triggered encephalopathy syndromes: a meta-analysis of clinical characteristics and outcomes in 1946 cases. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42699010/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42699010</a>
+              </li>
+              <li>Foong et al. Intrathecal dexamethasone in FIRES. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42801909/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42801909</a>
               </li>
             </ol>
           </div>

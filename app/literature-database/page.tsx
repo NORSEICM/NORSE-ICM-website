@@ -38,7 +38,7 @@ export default function LiteratureDatabase() {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             {[
-              { number: "463", label: "Eligible articles" },
+              { number: "465", label: "Eligible articles" },
               { number: "4,000+", label: "Patients described" },
               { number: "1,850+", label: "Individual-level data" },
               { number: "40+", label: "Countries represented" },
@@ -157,10 +157,10 @@ export default function LiteratureDatabase() {
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                   {[
-                    { label: "Search date", value: "Updated September 14, 2026" },
+                    { label: "Search date", value: "Updated October 05, 2026" },
                     { label: "Selection process", value: "Multi-step screening by two independent experts" },
                     { label: "Study types", value: "Case reports, case series, reviews, pathophysiology studies, guidelines" },
-                    { label: "Total eligible articles", value: "463 (184 case reports, 150 case series, 62 reviews, 29 pathophysiology studies)" },
+                    { label: "Total eligible articles", value: "465 (185 case reports, 150 case series, 63 reviews, 29 pathophysiology studies)" },
                   ].map((item) => (
                     <div key={item.label} className="bg-slate-50 border border-slate-200 rounded-lg p-4">
                       <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide mb-1">{item.label}</p>
@@ -205,8 +205,7 @@ export default function LiteratureDatabase() {
                   {[
                     { country: "United States", count: "125 articles" },
                     { country: "Japan", count: "50 articles" },
-                    { country: "Italy", count: "39 articles" },
-                    { country: "China", count: "39 articles" },
+                    { country: "China", count: "40 articles" },
                   ].map((item) => (
                     <div key={item.country} className="bg-slate-50 border border-slate-200 rounded-lg p-4 text-center">
                       <p className="font-semibold text-slate-800">{item.country}</p>
