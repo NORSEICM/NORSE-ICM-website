@@ -34,10 +34,10 @@ export default function Publications() {
       transition={{ duration: 0.8, delay: 0.5 }}
     >
       {[
-        { number: "150", label: "Case series" },
-        { number: "185", label: "Case reports" },
+        { number: "151", label: "Case series" },
+        { number: "188", label: "Case reports" },
         { number: "63", label: "Reviews" },
-        { number: "29", label: "Pathophysiology studies" },
+        { number: "30", label: "Pathophysiology studies" },
       ].map((stat, index) => (
         <motion.div
           key={stat.label}
@@ -423,7 +423,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-slate-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Series (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">64 articles</span>
+              <span className="text-xs text-gray-400 italic">65 articles</span>
             </div>
             <span className="text-slate-600 font-bold text-xl">+</span>
           </summary>
@@ -621,6 +621,9 @@ export default function Publications() {
               <li>Liu et al. Efficacy and safety of tocilizumab in the chronic phase of febrile infection-related epilepsy syndrome: a retrospective cohort study. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42696242/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42696242</a>
               </li>
+              <li>Shivarthi et al. Initial experience of bortezomib in cryptogenic new-onset refractory status epilepticus: a case series. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42843215/" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline hover:text-slate-900 font-medium">PMID 42843215</a>
+              </li>
             </ol>
           </div>
         </details>
@@ -635,7 +638,7 @@ export default function Publications() {
 >
   Case Reports
 </motion.h2>
-        <p className="text-gray-500 text-sm italic mb-6">185 published case reports — 2006 to 2026</p>
+        <p className="text-gray-500 text-sm italic mb-6">188 published case reports — 2006 to 2026</p>
 
         {/* === CASE REPORTS 2006–2010 === */}
         <details className="group mb-4 border border-gray-200 rounded-xl overflow-hidden">
@@ -1109,7 +1112,7 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-indigo-700 text-white text-xs font-bold px-2 py-1 rounded-md">2024–2026</span>
               <span className="font-semibold text-slate-800">Case Reports (2024 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">51 articles</span>
+              <span className="text-xs text-gray-400 italic">54 articles</span>
             </div>
             <span className="text-indigo-600 font-bold text-xl">+</span>
           </summary>
@@ -1268,6 +1271,15 @@ export default function Publications() {
               <li>Yang et al. Febrile infection-related epilepsy syndrome with claustrum sign following a human rhinovirus-positive respiratory illness in an adult: a case report. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42824462/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42824462</a>
               </li>
+              <li>Gonzalez et al. Successful Use of Tocilizumab in a 2-Year-Old Girl With Probable C-NORSE/FIRES: A Case Report. 2026.{" "}
+                <a href="https://onlinelibrary.wiley.com/doi/10.1111/cen3.70054" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">doi.org/10.1111/cen3.70054</a>
+              </li>
+              <li>Kumar Tilangi et al. New-onset refractory status epilepticus with a hyperferritinemic hyperinflammatory phenotype in Kyasanur Forest Disease. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42847124/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42847124</a>
+              </li>
+              <li>Shide-Moriguchi et al. Probable sudden unexpected death in epilepsy in chronic febrile infection-related epilepsy syndrome survivors: Silent threat after the storm. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42836786/" target="_blank" rel="noopener noreferrer" className="text-indigo-700 underline hover:text-indigo-900 font-medium">PMID 42836786</a>
+              </li>
             </ol>
           </div>
         </details>
@@ -1289,14 +1301,20 @@ export default function Publications() {
             <div className="flex items-center gap-3">
               <span className="bg-amber-600 text-white text-xs font-bold px-2 py-1 rounded-md">2006–2026</span>
               <span className="font-semibold text-slate-800">Others (2006 – 2026)</span>
-              <span className="text-xs text-gray-400 italic">111 articles</span>
+              <span className="text-xs text-gray-400 italic">131 articles</span>
             </div>
             <span className="text-amber-600 font-bold text-xl">+</span>
           </summary>
           <div className="px-6 py-5 border-t border-gray-200">
             <ol className="list-decimal ml-6 space-y-2 text-gray-700 text-sm" start={1}>
+              <li>Van Baalen et al. FIRES: febrile infection responsive epileptic (FIRE) encephalopathies of school age. 2009.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/18573629/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 18573629</a>
+              </li>
               <li>Sakuma et al. Acute encephalitis with refractory, repetitive partial seizures. 2009.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/19327924/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 19327924</a>
+              </li>
+              <li>Rathakrishnan et al. New onset refractory status epilepticus (NORSE). 2009.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/19356770/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 19356770</a>
               </li>
               <li>Kobayashi et al. Genetic seizure susceptibility underlying acute encephalopathies in childhood. 2010.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/20675100/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 20675100</a>
@@ -1313,6 +1331,9 @@ export default function Publications() {
               <li>Kobayashi et al. Acute encephalopathy with a novel point mutation in the SCN2A gene. 2012.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/22591750/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 22591750</a>
               </li>
+              <li>Köertvelyessy et al. FIRES and NORSE are distinct entities. 2012.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/22759241/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 22759241</a>
+              </li>
               <li>Van Baalen et al. Febrile Infection-Related Epilepsy Syndrome without Detectable Autoantibodies and Response to Immunotherapy. 2012.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/22911482/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 22911482</a>
               </li>
@@ -1328,11 +1349,20 @@ export default function Publications() {
               <li>Sakuma et al. Intrathecal overproduction of proinflammatory cytokines and chemokines in febrile infection-related refractory status epilepticus. 2015.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/25398790/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 25398790</a>
               </li>
+              <li>Millichap et al. Ketogenic Diet as Preferred Treatment of FIRES. 2016.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/26933526/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 26933526</a>
+              </li>
               <li>Saitoh et al. Cytokine-related and sodium channel polymorphism as candidate predisposing factors for childhood encephalopathy FIRES/AERRPS. 2016.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/27538648/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 27538648</a>
               </li>
               <li>Van Baalen et al. Febrile Infection–Related Epilepsy Syndrome: Clinical Review and Hypotheses of Epileptogenesis. 2017.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/27919115/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 27919115</a>
+              </li>
+              <li>Neubauer et al. Treatment of Super-Refractory Status Epilepticus in FIRES. 2017.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28027569/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 28027569</a>
+              </li>
+              <li>Kang et al. Survey of the diagnostic and therapeutic approach to new-onset refractory status epilepticus. 2017.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/28222319/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 28222319</a>
               </li>
               <li>Hirsch et al. Proposed consensus definitions for new-onset refractory status epilepticus (NORSE), febrile infection-related epilepsy syndrome (FIRES), and related conditions. 2018.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/29399791/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 29399791</a>
@@ -1346,6 +1376,12 @@ export default function Publications() {
               <li>Sculier et al. New onset refractory status epilepticus (NORSE). 2019.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/30482654/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 30482654</a>
               </li>
+               <li>Jackson et al. Reader Response: Rabies encephalitis presenting with new-onset refractory status epilepticus (NORSE). 2018.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/30564485/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 30564485</a>
+              </li>
+               <li>Smith et al. Author Response: Rabies encephalitis presenting with new-onset refractory status epilepticus (NORSE). 2018.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/30564487/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 30564487</a>
+              </li>
               <li>Clarkson et al. Functional Deficiency in Endogenous Interleukin-1 Receptor Antagonist in Patients with Febrile Infection-Related Epilepsy Syndrome. 2019.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/30779222/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 30779222</a>
               </li>
@@ -1358,14 +1394,29 @@ export default function Publications() {
               <li>Gofton et al. Communication Challenges: A Spotlight on New-Onset Refractory Status Epilepticus. 2019.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/30935709/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 30935709</a>
               </li>
+              <li>Gaspard et al. A New Hose to Extinguish the FIRES?. 2019.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/30955421/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 30955421</a>
+              </li>
               <li>Kothur et al. Etiology is the key determinant of neuroinflammation in epilepsy: Elevation of cerebrospinal fluid cytokines and chemokines in febrile infection-related epilepsy syndrome and febrile status epilepticus. 2019.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/31283843/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 31283843</a>
               </li>
               <li>Serino et al. Febrile infection-related epilepsy syndrome (FIRES): prevalence, impact and management strategies. 2019.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/31371963/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 31371963</a>
               </li>
+              <li>Wickstrom et al. Strategies for extinguishing FIRES. 2019.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/31530449/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 31530449</a>
+              </li>
               <li>Payne et al. Extinguishing Febrile Infection-Related Epilepsy Syndrome: Pipe Dream or Reality? 2020.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/32185792/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32185792</a>
+              </li>
+              <li>Villamar et al. Rabies encephalitis presenting with new-onset refractory status epilepticus-Update 2020.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/32190425/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32190425</a>
+              </li>
+              <li>Sethi et al. Reader response: New onset refractory status epilepticus research: What is on the horizon? 2020.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/32229638/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32229638</a>
+              </li>
+              <li>Gofton et al. Author response: New onset refractory status epilepticus research: What is on the horizon? 2020.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/32229639/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32229639</a>
               </li>
               <li>Sakuma et al. Neurocritical care and target immunotherapy for febrile infection-related epilepsy syndrome. 2020.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/32330681/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32330681</a>
@@ -1381,6 +1432,12 @@ export default function Publications() {
               </li>
               <li>Helbig et al. Whole-exome and HLA sequencing in Febrile infection-related epilepsy syndrome. 2020.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/32666661/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32666661</a>
+              </li>
+              <li>Dinoto et al. Comment on "Anti-NMDA receptor encephalitis presenting as new onset refractory status epilepticus in COVID-19" 2020.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/32827979/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32827979</a>
+              </li>
+              <li>Ruegg et al. New-onset super-refractory status epilepticus (NOSRSE): What's in a name? 2020.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/32943484/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 32943484</a>
               </li>
               <li>Bhatia et al. New Onset Refractory Status Epilepticus. 2023.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/33620842/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 33620842</a>
@@ -1420,6 +1477,9 @@ export default function Publications() {
               </li>
               <li>Arif et al. New-Onset Refractory Status Epilepticus Secondary to COVID-19 Infection in Adults: A Systematic Review. 2022.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/36065386/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 36065386</a>
+              </li>
+               <li>Cabezudo-Garcia et al. Functional outcomes of patients with NORSE and FIRES treated with immunotherapy: A systematic review. 2024.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/36155099/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 36155099</a>
               </li>
               <li>Kaur et al. Fever, Seizures and Encephalopathy: From Bush Fires to Firestorms. 2022.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/36211150/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 36211150</a>
@@ -1493,12 +1553,12 @@ export default function Publications() {
               <li>Thomschewski et al. Editorial: Advances in diagnosing and treating new-onset refractory status epilepticus (NORSE). 2023.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/37712084/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 37712084</a>
               </li>
-               <li>Kang et al. Interleukin-1 in Febrile Infection-Related Epilepsy Syndrome. 2023.{" "}
-                <a href="https://doi.org/10.26815/acn.2023.00031/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 37712084</a>
-                </li>
-              <li>Carson et al. New-Onset Refractory Status Epilepticus and Febrile Infection-Related Epilepsy Syndrome. 2023.{" "}
+              <li>Carson et al. Severe, Refractory Seizures: New-Onset Refractory Status Epilepticus and Febrile Infection-Related Epilepsy Syndrome. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/37951651/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 37951651</a>
               </li>
+               <li>Kang et al. Interleukin-1 in Febrile Infection-Related Epilepsy Syndrome. 2023.{" "}
+                <a href="https://doi.org/10.26815/acn.2023.00031/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">doi.org/10.26815/acn.2023.00031</a>
+                </li>
               <li>Hanin et al. New onset refractory status epilepticus: Summary of the NORSE Institute roundtable during the 2023 American Epilepsy Society meeting. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/38421053/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 38421053</a>
               </li>
@@ -1511,9 +1571,6 @@ export default function Publications() {
               <li>Hanin et al. Single-Cell Transcriptomic Analyses of Brain Parenchyma in Patients With NORSE. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/38810181/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 38810181</a>
               </li>
-              <li>Cabezudo-Garcia et al. Functional outcomes of patients with NORSE and FIRES treated with immunotherapy: A systematic review. 2024.{" "}
-                <a href="https://pubmed.ncbi.nlm.nih.gov/36155099/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 36155099</a>
-              </li>
               <li>Champsas et al. NORSE/FIRES: how can we advance our understanding of this devastating condition? 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39175762/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39175762</a>
               </li>
@@ -1523,8 +1580,8 @@ export default function Publications() {
               <li>Jang et al. Polygenic Landscape of Cryptogenic New-Onset Refractory Status Epilepticus: A Comprehensive Whole-Genome Sequencing Study. 2024.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39440581/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39440581</a>
               </li>
-              <li>Stavropoulos et al. New-onset refractory status epilepticus after SARS-CoV-2 infection: a review of literature. 2024.{" "}
-                <a href="https://pubmed.ncbi.nlm.nih.gov/39812100/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39812100</a>
+              <li>Sheikh et al. Corrigendum: A practical approach to in-hospital management of new-onset refractory status epilepticus/febrile infection related epilepsy syndrome. 2024.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/39588231/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39588231</a>
               </li>
               <li>Eschbach et al. Navigating life after NORSE and FIRES: Insights from caregiver and patient interviews. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39740258/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39740258</a>
@@ -1532,11 +1589,17 @@ export default function Publications() {
               <li>Kazazian et al. Age-associated differences in FIRES: Characterizing prodromal presentation and long-term outcomes via the web-based NORSE/FIRES Family Registry. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39804054/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39804054</a>
               </li>
+              <li>Stavropoulos et al. New-onset refractory status epilepticus after SARS-CoV-2 infection: a review of literature. 2024.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/39812100/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39812100</a>
+              </li>
               <li>Espino et al. New onset refractory status epilepticus: Long-term outcomes beyond seizures. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39825688/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 39825688</a>
               </li>
               <li>Goh et al. CSF Tau Is a Biomarker of Hippocampal Injury in Cryptogenic New-Onset Refractory Status Epilepticus. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/40164513/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 40164513</a>
+              </li>
+              <li>Jin et al. Cytokines in new-onset refractory status epilepticus: ready for clinical use?. 2025.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/40217433/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 40217433</a>
               </li>
               <li>Wang et al. Potential inflammatory mechanisms of the ketogenic diet against febrile infection-related epilepsy syndrome. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/40217546/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 40217546</a>
@@ -1552,6 +1615,9 @@ export default function Publications() {
               </li>
               <li>Shah et al. Update in new-onset refractory status epilepticus and febrile infection-related epilepsy syndrome. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/40831349/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 40831349</a>
+              </li>
+              <li>Aphale et al. ULetter to the editor: Immune dysregulation in new-onset refractory status epilepticus (NORSE): current insights and therapeutic perspectives. 2025.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/40834618/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 40834618</a>
               </li>
               <li>Guillemaud et al. Standard complete blood count to predict long-term outcomes in febrile infection-related epilepsy syndrome (FIRES): A multicenter study. 2025.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/40844418/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 40844418</a>
@@ -1570,6 +1636,9 @@ export default function Publications() {
               </li>
               <li>Nasuno et al. An increase in cerebrospinal fluid macrophage migration inhibitory factor levels in pediatric patients with acute neuroinflammatory diseases. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41707435/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 41707435</a>
+              </li>
+              <li>Shen et al. A model of new-onset refractory status epilepticus (NORSE) using intrahippocampal kainic acid in adolescent mice. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/41762487/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 41762487</a>
               </li>
               <li>Meletti et al. Acute Brain Injury in New-Onset Refractory Status Epilepticus and Etiology-Defined Status Epilepticus. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42043830/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42043830</a>
@@ -1627,6 +1696,9 @@ export default function Publications() {
               </li>
               <li>Foong et al. Intrathecal dexamethasone in FIRES. 2026.{" "}
                 <a href="https://pubmed.ncbi.nlm.nih.gov/42801909/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42801909</a>
+              </li>
+              <li>Hanin et al. Longitudinal serum and CSF cytokine dynamics in NORSE: Associations with immunotherapy exposure. 2026.{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/42984304/" target="_blank" rel="noopener noreferrer" className="text-amber-700 underline hover:text-amber-900 font-medium">PMID 42984304</a>
               </li>
             </ol>
           </div>
