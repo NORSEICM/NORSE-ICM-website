@@ -8,8 +8,8 @@ import { usePathname } from "next/navigation";
 /* Pages du menu (l'événement est affiché à part, en pastille orange) */
 const pages = [
   { name: "Home", href: "/" },
-  { name: "Literature Database", href: "/literature-database" },
   { name: "Cytokine Platform", href: "/cytokine-platform" },
+  { name: "Literature Database", href: "/literature-database" },
   { name: "Publications", href: "/publications" },
   { name: "Collaboration & Access", href: "/collaboration-and-access" },
 ];
