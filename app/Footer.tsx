@@ -5,8 +5,8 @@ import { REFERRAL_MAILTO } from "./referral";
 
 const siteLinks = [
   { href: "/", label: "Home" },
-  { href: "/literature-database", label: "Literature Database" },
   { href: "/cytokine-platform", label: "Cytokine Platform" },
+  { href: "/literature-database", label: "Literature Database" },
   { href: "/publications", label: "Publications" },
   { href: "/collaboration-and-access", label: "Collaboration & Access" },
 ];
