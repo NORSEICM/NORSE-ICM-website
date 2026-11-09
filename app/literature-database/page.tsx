@@ -28,8 +28,8 @@ const SEARCH_FACTS = [
 ];
 
 const ARTICLE_TYPES = [
-  { n: "188", l: "Case reports" },
-  { n: "151", l: "Case series" },
+  { n: "187", l: "Case reports" },
+  { n: "152", l: "Case series" },
   { n: "63", l: "Reviews" },
   { n: "30", l: "Pathophysiology studies" },
 ];
