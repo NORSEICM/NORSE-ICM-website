@@ -79,10 +79,10 @@ const LATEST_ARTICLES = [
     url: "https://doi.org/10.1002/epi.70566",
   },
   {
-    journal: "Epilepsia · 2026",
-    title: "Exploring pathways leading to drug-resistant epilepsy for patients with cryptogenic new onset refractory status epilepticus",
-    authors: "Hanin A, Marois C, Guillemaud M, et al.",
-    url: "https://doi.org/10.1002/epi.70146",
+    journal: "Practical Neurology · 2026",
+    title: "New-Onset Refractory Status Epilepticus Management: A Practical Approach From a Tertiary Referral Center",
+    authors: "Hanin A, Demeret S, Navarro V, Marois C",
+    url: "https://practicalneurology.com/archives/nov-2026-issue/new-onset-refractory-status-epilepticus-management/85657/",
   },
 ];
 
