@@ -63,7 +63,7 @@ const CONGRESS = {
   href: "/norse-europe",
   formUrl:
     "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=F8_3nfoYUEGLANxedUd32DXJQBA1gxBLg1tp8JleJVRUNTVMMTBUT0xJU1hYREpRV1Y4SUhUOUhLQi4u",
-  kicker: "Training School · Fall 2027 · Paris",
+  kicker: "Training School · November 15-17 2027 · Paris",
   title: "Neuroinflammation & Epilepsy",
   tagline: "From Mechanisms to Precision Immunotherapy",
   format: "International Training School and Translational Workshop — 2.5 days at the Paris Brain Institute.",
@@ -304,7 +304,7 @@ export default function Home() {
             </span>
             <span className={`${SERIF} text-base font-bold text-white md:text-lg`}>{CONGRESS.title}</span>
             <span className="hidden h-4 w-px bg-white/25 md:inline" />
-            <span className="text-slate-200">Fall 2027 · Paris Brain Institute</span>
+            <span className="text-slate-200">November 15-17 2027 · Paris Brain Institute</span>
             <span className="inline-flex items-center gap-1.5 rounded-lg bg-[#f5a524] px-3.5 py-1.5 text-xs font-semibold text-slate-900 shadow-sm transition duration-300 group-hover:bg-[#f7b84a]">
               Learn more &amp; register
               <span className="transition group-hover:translate-x-0.5">→</span>

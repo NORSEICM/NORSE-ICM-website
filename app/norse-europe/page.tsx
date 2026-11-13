@@ -19,8 +19,8 @@ const EVENT = {
   focus: ["NORSE", "Rasmussen Encephalitis"],
   /* Version courte (objet des e-mails, petits textes) */
   shortName: "Neuroinflammation & Epilepsy 2027",
-  when: "Fall 2027",
-  whenDetail: "Exact dates to be announced",
+  when: "November 15-17 2027",
+  whenDetail: "November 15: Training school\nNovember 16-17: workshop",
   duration: "2.5 days",
   venue: "Paris Brain Institute (ICM)",
   venueDetail: "Pitié‑Salpêtrière Hospital, 47 boulevard de l'Hôpital, 75013 Paris, France",
@@ -65,7 +65,7 @@ const COMING_SOON = [
 const MAILING_LIST = `mailto:${EVENT.contact}?subject=${encodeURIComponent(
   `${EVENT.shortName} – Interest`
 )}&body=${encodeURIComponent(
-  "Dear NORSE-ICM team,\n\nI am interested in 'Neuroinflammation & Epilepsy: From Mechanisms to Precision Immunotherapy' (Paris, fall 2027) and would like to be informed when registration opens.\n\nName:\nPosition:\nInstitution:\nCountry:\n"
+  "Dear NORSE-ICM team,\n\nI am interested in 'Neuroinflammation & Epilepsy: From Mechanisms to Precision Immunotherapy' (Paris, November 15-17 2027) and would like to be informed when registration opens.\n\nName:\nPosition:\nInstitution:\nCountry:\n"
 )}`;
 
 /* Bouton principal : Microsoft Form si le lien est rempli, sinon e-mail */
@@ -409,7 +409,7 @@ export default function NorseEuropePage() {
                   {EVENT.name}: {EVENT.tagline}
                 </strong>
                 , an international training school and translational workshop that will take place over two and a half days in{" "}
-                <strong className="text-slate-900">fall 2027</strong> at the{" "}
+                <strong className="text-slate-900">November 15-17 2027</strong> at the{" "}
                 <strong className="text-slate-900">Paris Brain Institute</strong>.
               </p>
               <p>
