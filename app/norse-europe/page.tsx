@@ -20,7 +20,7 @@ const EVENT = {
   /* Version courte (objet des e-mails, petits textes) */
   shortName: "Neuroinflammation & Epilepsy 2027",
   when: "November 15-17 2027",
-  whenDetail: "November 15: Training school\nNovember 16-17: workshop",
+  whenDetail: "November 15: Training school\nNovember 16-17: Workshop",
   duration: "2.5 days",
   venue: "Paris Brain Institute (ICM)",
   venueDetail: "Pitié‑Salpêtrière Hospital, 47 boulevard de l'Hôpital, 75013 Paris, France",
