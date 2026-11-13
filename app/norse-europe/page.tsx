@@ -379,8 +379,7 @@ export default function NorseEuropePage() {
               </span>
               <p className="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-slate-500">{item.label}</p>
               <p className="mt-2 text-lg font-semibold text-slate-900">{item.value}</p>
-              <p className="mt-2 text-sm leading-relaxed text-slate-500">{item.detail}</p>
-            </motion.div>
+              <p className="mt-2 text-sm leading-relaxed text-slate-500 whitespace-pre-line">{item.detail}</p>            </motion.div>
           ))}
         </div>
       </Section>

@@ -100,7 +100,7 @@ export default function Footer() {
           >
             <p className="flex items-center gap-2 text-[10px] font-semibold tracking-[0.2em] text-[#f5a524] uppercase">
               <span className="h-1.5 w-1.5 rounded-full bg-[#f5a524]" />
-              Fall 2027 · Paris
+              November 15-17 2027 · Paris
             </p>
             <p className="mt-3 font-[family-name:var(--font-bodoni)] text-lg leading-snug font-bold text-white">
               Neuroinflammation &amp; Epilepsy
